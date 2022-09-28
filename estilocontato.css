@@ -1,36 +1,40 @@
 <style>
         h1{
-            color: blue;
+            color: #0000FF;
             font-size: 30px;
-            text-align: center;
+            text-align: left;
         }
 
         h2{
-            color: brown;
+            color: #B22222	;
             font-size: 20px;
-            text-align: center;
         }
 
         body{
             font-size: 12px;
             font-family: arial;
+            text-align: center;
         }
         form{ 
             margin: 0 auto;
             width: 350px;
+            height: 350px;
             border-radius: 1pc;
-            border: 1px solid rgb(69, 92, 219);
-            padding: 5em;            
+            background-color: #4169E1;
+            border: 1px solid ;
+            padding: 2em;            
             text-align: left;
             font-family: Arial, 'Times New Roman';
+            box-shadow: 8px 8px #363636;
         }
         ul{
-            background-color: cornflowerblue;
+            background-color: #4169E1;
             border-radius: 1pc;  
             margin: 0 rigth;
-            padding: 8em; 
+            padding: 5em; 
             width: 200px;
-            border: 1px solid rgb(69, 92, 219);
+            height: 300;
+            border: 1px solid #4169E1;
         }
         li{
             padding: 1em; 
@@ -48,12 +52,37 @@
         textarea{
             float: left;
             padding: 5px;
+        }
+        textarea:hover{
+            border-color: #0000FF;
+            padding: 5px;
         }          
         input {
             width: 100px;
-            padding: 2px;
         }
         label:focus, input:focus{
-            border-color: black;
+            border-color: #000000;
+            padding: 5px;
+        }
+        input:hover{
+            border-color: #0000FF;
+        }
+        .button{
+            border: none;
+            border-radius: 15px;
+            padding: 20px 30pxs;
+            background-color: #008000;
+            color: white;
+            font-size: 30px;
+            box-shadow: 8px 8px #363636;
+            cursor: pointer;
+        }
+        .button:hover{
+            background-color: #fdd802;
+        }
+        .button:active{
+            background-color: #fdd802;
+            color: black;
+            box-shadow: 4px 4px #363636;
         }     
 </style>
