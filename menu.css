@@ -1,0 +1,35 @@
+<style>
+    li{
+        float: left;
+        list-style-type:none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #cc2d2d;
+        top: 0;
+        height: 100%;
+    }
+
+    li a{
+        display: block;
+        color: rgb rgb(114, 113, 33);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;       
+    }
+
+    li a :hover{
+        color: rgb(233, 223, 88);
+        background-color: rgb(91, 168, 219);
+    }
+
+    article{
+        padding: 16px;
+        margin-top: 30px;
+        height: 1500px;
+    }
+     
+    .active{
+        background-color: rgb(91, 168, 219;
+    }
+</style>
